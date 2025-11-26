@@ -1,0 +1,15 @@
+[project]
+name = "codingagent"
+version = "0.1.0"
+description = "Agentic AI project using AutoGen"
+authors = [{ name = "Vishakha" }]
+requires-python = ">=3.10"
+
+dependencies = [
+    "autogen",
+    # If you want the Studio UI:
+    # "autogenstudio"
+    "openai>=2.8.1",
+    "pyautogen>=0.10.0",
+    "python-dotenv>=1.2.1",
+]
